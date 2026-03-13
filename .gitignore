@@ -1,0 +1,44 @@
+# Logs
+logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+lerna-debug.log*
+
+# Editor directories and files
+.vscode/*
+!.vscode/extensions.json
+.idea
+.DS_Store
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
+
+# Pre-commit hooks
+.vite-hooks
+
+# Environment secrets
+.env
+.env.*
+!.env.example
+!.env.test
+
+# Output
+.output
+.vercel
+.netlify
+.wrangler
+/.svelte-kit
+/build
+node_modules
+dist
+dist-ssr
+*.local
+
+# OS
+.DS_Store
+Thumbs.db
