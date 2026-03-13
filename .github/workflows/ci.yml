@@ -1,5 +1,4 @@
 name: CI
-
 on:
   pull_request:
   push:
@@ -12,7 +11,8 @@ jobs:
     name: test
     runs-on: ubuntu-latest
     steps:
-      - uses: voidzero-dev/setup-vp@4a524139920f87f9f7080d3b8545acac019e1852 # v1.0.0
+      - uses: actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd
+      - uses: voidzero-dev/setup-vp@4a524139920f87f9f7080d3b8545acac019e1852
         with:
           node-version: "22"
           cache: true
