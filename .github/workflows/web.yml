@@ -33,6 +33,6 @@ jobs:
         if: ${{ github.ref == 'refs/heads/main' || github.ref == 'refs/heads/master' }}
         with:
           branch: gh-pages
-          folder: .svelte-kit/output/client
+          folder: build
           token: ${{ secrets.GITHUB_TOKEN }}
           single-commit: true
