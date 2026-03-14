@@ -2,13 +2,7 @@
 
 Modern, fast and optimized development environment with VitePlus and SvelteKit.
 
-## Install Bun
-
-Install Bun runtime first if it is not installed
-
-```sh
-curl -fsSL https://bun.sh/install | bash
-```
+[pnpm](https://pnpm.io/) is recommended.
 
 ## Using the template
 
