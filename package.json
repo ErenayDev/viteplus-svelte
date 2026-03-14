@@ -18,8 +18,9 @@
     "@sveltejs/vite-plugin-svelte": "^7.0.0",
     "svelte": "^5.53.11",
     "typescript": "~5.9.3",
+    "vite": "npm:@voidzero-dev/vite-plus-core@latest",
     "vite-plus": "^0.1.11",
-    "vitest": "npm:@voidzero-dev/vite-plus-test@^0.1.11"
+    "vitest": "npm:@voidzero-dev/vite-plus-test@latest"
   },
   "overrides": {
     "vite": "npm:@voidzero-dev/vite-plus-core@latest",

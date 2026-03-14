@@ -10,7 +10,6 @@
 
 <script lang="ts">
     let count = $state(0);
-    let summed = sum(() => count, 1);
     import svelte from "$lib/assets/svelte.svg";
     import viteplus from "$lib/assets/viteplus.svg";
 </script>
@@ -41,7 +40,7 @@
             SvelteKit Documentation
         </a>
     </div>
-    <button onclick={() => count++} class="counter">
-        Clicks: {summed.value}
+    <button onclick={() => (count = sum(() => count, 1).value)} class="counter">
+        Clicks: {count}
     </button>
 </div>
