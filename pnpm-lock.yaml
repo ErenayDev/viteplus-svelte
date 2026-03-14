@@ -25,7 +25,7 @@ importers:
         specifier: ^7.0.0
         version: 7.0.0(@voidzero-dev/vite-plus-core@0.1.11(typescript@5.9.3))(svelte@5.53.12)
       svelte:
-        specifier: ^5.53.11
+        specifier: ^5.53.12
         version: 5.53.12
       typescript:
         specifier: ~5.9.3
@@ -37,7 +37,7 @@ importers:
         specifier: ^0.1.11
         version: 0.1.11(@voidzero-dev/vite-plus-core@0.1.11(typescript@5.9.3))(typescript@5.9.3)
       vitest:
-        specifier: npm:@voidzero-dev/vite-plus-test@latest
+        specifier: npm:@voidzero-dev/vite-plus-test@^0.1.11
         version: '@voidzero-dev/vite-plus-test@0.1.11(@voidzero-dev/vite-plus-core@0.1.11(typescript@5.9.3))(typescript@5.9.3)'
 
 packages:
