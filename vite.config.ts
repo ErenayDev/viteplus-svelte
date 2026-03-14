@@ -6,5 +6,11 @@ export default defineConfig({
   staged: {
     "*": "vp check --fix",
   },
-  lint: { options: { typeAware: true, typeCheck: true } },
+  lint: {
+    ignorePatterns: ["**/*.test.svelte.ts", "**/*.spec.svelte.ts"],
+    options: { typeAware: true, typeCheck: true },
+  },
+  test: {
+    include: ["src/**/*.test.svelte.ts"],
+  },
 });

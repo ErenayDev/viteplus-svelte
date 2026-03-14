@@ -14,7 +14,7 @@ curl -fsSL https://bun.sh/install | bash
 
 ```sh
 # create a new project
-bunx vp create https://github.com/ErenayDev/viteplus-svelte
+pnpx vp create https://github.com/ErenayDev/viteplus-svelte
 ```
 
 ## Developing
@@ -22,10 +22,10 @@ bunx vp create https://github.com/ErenayDev/viteplus-svelte
 Once you've created a project and installed dependencies with `bun install`, start a development server:
 
 ```sh
-bun --bun run dev
+pnpx run dev
 
 # or start the server and open the app in a new browser tab
-bun --bun run dev -- --open
+pnpx run dev -- --open
 ```
 
 ## Building
