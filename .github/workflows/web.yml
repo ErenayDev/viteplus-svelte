@@ -29,7 +29,7 @@ jobs:
       - run: vp install
       - run: vp build
       - name: Deploy to gh-pages
-        uses: JamesIves/github-pages-deploy-action@d92aa235d04922e8f08b40ce78cc5442fcfbfa2f
+        uses: JamesIves/github-pages-deploy-action@e247546e78fc69b7e0871042c086f93119e7274b
         if: ${{ github.ref == 'refs/heads/main' || github.ref == 'refs/heads/master' }}
         with:
           branch: gh-pages
