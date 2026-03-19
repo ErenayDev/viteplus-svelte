@@ -22,7 +22,7 @@ jobs:
         with:
           fetch-depth: 0
           ref: ${{ github.event.workflow_run.head_sha }}
-      - uses: voidzero-dev/setup-vp@4a524139920f87f9f7080d3b8545acac019e1852
+      - uses: voidzero-dev/setup-vp@6f7287dbf2b5829c6269c6a9fc388c2bdc00f3ba
         with:
           node-version: "22"
           cache: true
