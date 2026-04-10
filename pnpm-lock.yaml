@@ -14,19 +14,19 @@ importers:
     devDependencies:
       '@sveltejs/adapter-auto':
         specifier: ^7.0.1
-        version: 7.0.1(@sveltejs/kit@2.56.1(@sveltejs/vite-plugin-svelte@7.0.0(@voidzero-dev/vite-plus-core@0.1.12(typescript@6.0.2))(svelte@5.55.1))(@voidzero-dev/vite-plus-core@0.1.12(typescript@6.0.2))(svelte@5.55.1)(typescript@6.0.2))
+        version: 7.0.1(@sveltejs/kit@2.56.1(@sveltejs/vite-plugin-svelte@7.0.0(@voidzero-dev/vite-plus-core@0.1.12(typescript@6.0.2))(svelte@5.55.3))(@voidzero-dev/vite-plus-core@0.1.12(typescript@6.0.2))(svelte@5.55.3)(typescript@6.0.2))
       '@sveltejs/adapter-static':
         specifier: ^3.0.10
-        version: 3.0.10(@sveltejs/kit@2.56.1(@sveltejs/vite-plugin-svelte@7.0.0(@voidzero-dev/vite-plus-core@0.1.12(typescript@6.0.2))(svelte@5.55.1))(@voidzero-dev/vite-plus-core@0.1.12(typescript@6.0.2))(svelte@5.55.1)(typescript@6.0.2))
+        version: 3.0.10(@sveltejs/kit@2.56.1(@sveltejs/vite-plugin-svelte@7.0.0(@voidzero-dev/vite-plus-core@0.1.12(typescript@6.0.2))(svelte@5.55.3))(@voidzero-dev/vite-plus-core@0.1.12(typescript@6.0.2))(svelte@5.55.3)(typescript@6.0.2))
       '@sveltejs/kit':
         specifier: ^2.55.0
-        version: 2.56.1(@sveltejs/vite-plugin-svelte@7.0.0(@voidzero-dev/vite-plus-core@0.1.12(typescript@6.0.2))(svelte@5.55.1))(@voidzero-dev/vite-plus-core@0.1.12(typescript@6.0.2))(svelte@5.55.1)(typescript@6.0.2)
+        version: 2.56.1(@sveltejs/vite-plugin-svelte@7.0.0(@voidzero-dev/vite-plus-core@0.1.12(typescript@6.0.2))(svelte@5.55.3))(@voidzero-dev/vite-plus-core@0.1.12(typescript@6.0.2))(svelte@5.55.3)(typescript@6.0.2)
       '@sveltejs/vite-plugin-svelte':
         specifier: ^7.0.0
-        version: 7.0.0(@voidzero-dev/vite-plus-core@0.1.12(typescript@6.0.2))(svelte@5.55.1)
+        version: 7.0.0(@voidzero-dev/vite-plus-core@0.1.12(typescript@6.0.2))(svelte@5.55.3)
       svelte:
         specifier: ^5.54.0
-        version: 5.55.1
+        version: 5.55.3
       typescript:
         specifier: ~6.0.0
         version: 6.0.2
@@ -405,8 +405,8 @@ packages:
   '@types/trusted-types@2.0.7':
     resolution: {integrity: sha512-ScaPdn1dQczgbl0QFTeTOmVHFULt394XJgOQNoyVhZ6r2vLnMLJfBPd53SB52T/3G36VI1/g2MZaX0cwDuXsfw==}
 
-  '@typescript-eslint/types@8.57.2':
-    resolution: {integrity: sha512-/iZM6FnM4tnx9csuTxspMW4BOSegshwX5oBDznJ7S4WggL7Vczz5d2W11ecc4vRrQMQHXRSxzrCsyG5EsPPTbA==}
+  '@typescript-eslint/types@8.58.1':
+    resolution: {integrity: sha512-io/dV5Aw5ezwzfPBBWLoT+5QfVtP8O7q4Kftjn5azJ88bYyp/ZMCsyW1lpKK46EXJcaYMZ1JtYj+s/7TdzmQMw==}
     engines: {node: ^18.18.0 || ^20.9.0 || >=21.1.0}
 
   '@voidzero-dev/vite-plus-core@0.1.12':
@@ -667,6 +667,9 @@ packages:
   devalue@5.6.4:
     resolution: {integrity: sha512-Gp6rDldRsFh/7XuouDbxMH3Mx8GMCcgzIb1pDTvNyn8pZGQ22u+Wa+lGV9dQCltFQ7uVw0MhRyb8XDskNFOReA==}
 
+  devalue@5.7.1:
+    resolution: {integrity: sha512-MUbZ586EgQqdRnC4yDrlod3BEdyvE4TapGYHMW2CiaW+KkkFmWEFqBUaLltEZCGi0iFXCEjRF0OjF0DV2QHjOA==}
+
   es-module-lexer@1.7.0:
     resolution: {integrity: sha512-jEQoCwk8hyb2AZziIOLhDqpm5+2ww5uIE6lkO/6jcOCusfk6LhMHpXXfBLXTZ7Ydyt0j4VoUQv6uGNYbdW+kBA==}
 
@@ -841,8 +844,8 @@ packages:
   std-env@4.0.0:
     resolution: {integrity: sha512-zUMPtQ/HBY3/50VbpkupYHbRroTRZJPRLvreamgErJVys0ceuzMkD44J/QjqhHjOzK42GQ3QZIeFG1OYfOtKqQ==}
 
-  svelte@5.55.1:
-    resolution: {integrity: sha512-QjvU7EFemf6mRzdMGlAFttMWtAAVXrax61SZYHdkD6yoVGQ89VeyKfZD4H1JrV1WLmJBxWhFch9H6ig/87VGjw==}
+  svelte@5.55.3:
+    resolution: {integrity: sha512-dS1N+i3bA1v+c4UDb750MlN5vCO82G6vxh8HeTsPsTdJ1BLsN1zxSyDlIdBBqUjqZ/BxEwM8UrFf98aaoVnZFQ==}
     engines: {node: '>=18'}
 
   tinybench@2.9.0:
@@ -1078,19 +1081,19 @@ snapshots:
     dependencies:
       acorn: 8.16.0
 
-  '@sveltejs/adapter-auto@7.0.1(@sveltejs/kit@2.56.1(@sveltejs/vite-plugin-svelte@7.0.0(@voidzero-dev/vite-plus-core@0.1.12(typescript@6.0.2))(svelte@5.55.1))(@voidzero-dev/vite-plus-core@0.1.12(typescript@6.0.2))(svelte@5.55.1)(typescript@6.0.2))':
+  '@sveltejs/adapter-auto@7.0.1(@sveltejs/kit@2.56.1(@sveltejs/vite-plugin-svelte@7.0.0(@voidzero-dev/vite-plus-core@0.1.12(typescript@6.0.2))(svelte@5.55.3))(@voidzero-dev/vite-plus-core@0.1.12(typescript@6.0.2))(svelte@5.55.3)(typescript@6.0.2))':
     dependencies:
-      '@sveltejs/kit': 2.56.1(@sveltejs/vite-plugin-svelte@7.0.0(@voidzero-dev/vite-plus-core@0.1.12(typescript@6.0.2))(svelte@5.55.1))(@voidzero-dev/vite-plus-core@0.1.12(typescript@6.0.2))(svelte@5.55.1)(typescript@6.0.2)
+      '@sveltejs/kit': 2.56.1(@sveltejs/vite-plugin-svelte@7.0.0(@voidzero-dev/vite-plus-core@0.1.12(typescript@6.0.2))(svelte@5.55.3))(@voidzero-dev/vite-plus-core@0.1.12(typescript@6.0.2))(svelte@5.55.3)(typescript@6.0.2)
 
-  '@sveltejs/adapter-static@3.0.10(@sveltejs/kit@2.56.1(@sveltejs/vite-plugin-svelte@7.0.0(@voidzero-dev/vite-plus-core@0.1.12(typescript@6.0.2))(svelte@5.55.1))(@voidzero-dev/vite-plus-core@0.1.12(typescript@6.0.2))(svelte@5.55.1)(typescript@6.0.2))':
+  '@sveltejs/adapter-static@3.0.10(@sveltejs/kit@2.56.1(@sveltejs/vite-plugin-svelte@7.0.0(@voidzero-dev/vite-plus-core@0.1.12(typescript@6.0.2))(svelte@5.55.3))(@voidzero-dev/vite-plus-core@0.1.12(typescript@6.0.2))(svelte@5.55.3)(typescript@6.0.2))':
     dependencies:
-      '@sveltejs/kit': 2.56.1(@sveltejs/vite-plugin-svelte@7.0.0(@voidzero-dev/vite-plus-core@0.1.12(typescript@6.0.2))(svelte@5.55.1))(@voidzero-dev/vite-plus-core@0.1.12(typescript@6.0.2))(svelte@5.55.1)(typescript@6.0.2)
+      '@sveltejs/kit': 2.56.1(@sveltejs/vite-plugin-svelte@7.0.0(@voidzero-dev/vite-plus-core@0.1.12(typescript@6.0.2))(svelte@5.55.3))(@voidzero-dev/vite-plus-core@0.1.12(typescript@6.0.2))(svelte@5.55.3)(typescript@6.0.2)
 
-  '@sveltejs/kit@2.56.1(@sveltejs/vite-plugin-svelte@7.0.0(@voidzero-dev/vite-plus-core@0.1.12(typescript@6.0.2))(svelte@5.55.1))(@voidzero-dev/vite-plus-core@0.1.12(typescript@6.0.2))(svelte@5.55.1)(typescript@6.0.2)':
+  '@sveltejs/kit@2.56.1(@sveltejs/vite-plugin-svelte@7.0.0(@voidzero-dev/vite-plus-core@0.1.12(typescript@6.0.2))(svelte@5.55.3))(@voidzero-dev/vite-plus-core@0.1.12(typescript@6.0.2))(svelte@5.55.3)(typescript@6.0.2)':
     dependencies:
       '@standard-schema/spec': 1.1.0
       '@sveltejs/acorn-typescript': 1.0.9(acorn@8.16.0)
-      '@sveltejs/vite-plugin-svelte': 7.0.0(@voidzero-dev/vite-plus-core@0.1.12(typescript@6.0.2))(svelte@5.55.1)
+      '@sveltejs/vite-plugin-svelte': 7.0.0(@voidzero-dev/vite-plus-core@0.1.12(typescript@6.0.2))(svelte@5.55.3)
       '@types/cookie': 0.6.0
       acorn: 8.16.0
       cookie: 0.6.0
@@ -1101,17 +1104,17 @@ snapshots:
       mrmime: 2.0.1
       set-cookie-parser: 3.1.0
       sirv: 3.0.2
-      svelte: 5.55.1
+      svelte: 5.55.3
       vite: '@voidzero-dev/vite-plus-core@0.1.12(typescript@6.0.2)'
     optionalDependencies:
       typescript: 6.0.2
 
-  '@sveltejs/vite-plugin-svelte@7.0.0(@voidzero-dev/vite-plus-core@0.1.12(typescript@6.0.2))(svelte@5.55.1)':
+  '@sveltejs/vite-plugin-svelte@7.0.0(@voidzero-dev/vite-plus-core@0.1.12(typescript@6.0.2))(svelte@5.55.3)':
     dependencies:
       deepmerge: 4.3.1
       magic-string: 0.30.21
       obug: 2.1.1
-      svelte: 5.55.1
+      svelte: 5.55.3
       vite: '@voidzero-dev/vite-plus-core@0.1.12(typescript@6.0.2)'
       vitefu: 1.1.2(@voidzero-dev/vite-plus-core@0.1.12(typescript@6.0.2))
 
@@ -1128,7 +1131,7 @@ snapshots:
 
   '@types/trusted-types@2.0.7': {}
 
-  '@typescript-eslint/types@8.57.2': {}
+  '@typescript-eslint/types@8.58.1': {}
 
   '@voidzero-dev/vite-plus-core@0.1.12(typescript@6.0.2)':
     dependencies:
@@ -1266,6 +1269,8 @@ snapshots:
 
   devalue@5.6.4: {}
 
+  devalue@5.7.1: {}
+
   es-module-lexer@1.7.0: {}
 
   esm-env@1.2.2: {}
@@ -1273,7 +1278,7 @@ snapshots:
   esrap@2.2.4:
     dependencies:
       '@jridgewell/sourcemap-codec': 1.5.5
-      '@typescript-eslint/types': 8.57.2
+      '@typescript-eslint/types': 8.58.1
 
   fdir@6.5.0(picomatch@4.0.3):
     optionalDependencies:
@@ -1433,7 +1438,7 @@ snapshots:
 
   std-env@4.0.0: {}
 
-  svelte@5.55.1:
+  svelte@5.55.3:
     dependencies:
       '@jridgewell/remapping': 2.3.5
       '@jridgewell/sourcemap-codec': 1.5.5
@@ -1444,7 +1449,7 @@ snapshots:
       aria-query: 5.3.1
       axobject-query: 4.1.0
       clsx: 2.1.1
-      devalue: 5.6.4
+      devalue: 5.7.1
       esm-env: 1.2.2
       esrap: 2.2.4
       is-reference: 3.0.3
