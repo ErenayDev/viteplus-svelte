@@ -14,31 +14,31 @@ importers:
     devDependencies:
       '@sveltejs/adapter-auto':
         specifier: ^7.0.1
-        version: 7.0.1(@sveltejs/kit@2.57.1(@sveltejs/vite-plugin-svelte@7.0.0(@voidzero-dev/vite-plus-core@0.1.12(typescript@6.0.2))(svelte@5.55.4(@typescript-eslint/types@8.58.1)))(@voidzero-dev/vite-plus-core@0.1.12(typescript@6.0.2))(svelte@5.55.4(@typescript-eslint/types@8.58.1))(typescript@6.0.2))
+        version: 7.0.1(@sveltejs/kit@2.57.1(@sveltejs/vite-plugin-svelte@7.0.0(@voidzero-dev/vite-plus-core@0.1.12(typescript@6.0.3))(svelte@5.55.4(@typescript-eslint/types@8.58.1)))(@voidzero-dev/vite-plus-core@0.1.12(typescript@6.0.3))(svelte@5.55.4(@typescript-eslint/types@8.58.1))(typescript@6.0.3))
       '@sveltejs/adapter-static':
         specifier: ^3.0.10
-        version: 3.0.10(@sveltejs/kit@2.57.1(@sveltejs/vite-plugin-svelte@7.0.0(@voidzero-dev/vite-plus-core@0.1.12(typescript@6.0.2))(svelte@5.55.4(@typescript-eslint/types@8.58.1)))(@voidzero-dev/vite-plus-core@0.1.12(typescript@6.0.2))(svelte@5.55.4(@typescript-eslint/types@8.58.1))(typescript@6.0.2))
+        version: 3.0.10(@sveltejs/kit@2.57.1(@sveltejs/vite-plugin-svelte@7.0.0(@voidzero-dev/vite-plus-core@0.1.12(typescript@6.0.3))(svelte@5.55.4(@typescript-eslint/types@8.58.1)))(@voidzero-dev/vite-plus-core@0.1.12(typescript@6.0.3))(svelte@5.55.4(@typescript-eslint/types@8.58.1))(typescript@6.0.3))
       '@sveltejs/kit':
         specifier: ^2.55.0
-        version: 2.57.1(@sveltejs/vite-plugin-svelte@7.0.0(@voidzero-dev/vite-plus-core@0.1.12(typescript@6.0.2))(svelte@5.55.4(@typescript-eslint/types@8.58.1)))(@voidzero-dev/vite-plus-core@0.1.12(typescript@6.0.2))(svelte@5.55.4(@typescript-eslint/types@8.58.1))(typescript@6.0.2)
+        version: 2.57.1(@sveltejs/vite-plugin-svelte@7.0.0(@voidzero-dev/vite-plus-core@0.1.12(typescript@6.0.3))(svelte@5.55.4(@typescript-eslint/types@8.58.1)))(@voidzero-dev/vite-plus-core@0.1.12(typescript@6.0.3))(svelte@5.55.4(@typescript-eslint/types@8.58.1))(typescript@6.0.3)
       '@sveltejs/vite-plugin-svelte':
         specifier: ^7.0.0
-        version: 7.0.0(@voidzero-dev/vite-plus-core@0.1.12(typescript@6.0.2))(svelte@5.55.4(@typescript-eslint/types@8.58.1))
+        version: 7.0.0(@voidzero-dev/vite-plus-core@0.1.12(typescript@6.0.3))(svelte@5.55.4(@typescript-eslint/types@8.58.1))
       svelte:
         specifier: ^5.54.0
         version: 5.55.4(@typescript-eslint/types@8.58.1)
       typescript:
         specifier: ~6.0.0
-        version: 6.0.2
+        version: 6.0.3
       vite:
         specifier: npm:@voidzero-dev/vite-plus-core@^0.1.12
-        version: '@voidzero-dev/vite-plus-core@0.1.12(typescript@6.0.2)'
+        version: '@voidzero-dev/vite-plus-core@0.1.12(typescript@6.0.3)'
       vite-plus:
         specifier: ^0.1.12
-        version: 0.1.18(@voidzero-dev/vite-plus-core@0.1.12(typescript@6.0.2))(typescript@6.0.2)
+        version: 0.1.18(@voidzero-dev/vite-plus-core@0.1.12(typescript@6.0.3))(typescript@6.0.3)
       vitest:
         specifier: npm:@voidzero-dev/vite-plus-test@^0.1.12
-        version: '@voidzero-dev/vite-plus-test@0.1.12(@voidzero-dev/vite-plus-core@0.1.12(typescript@6.0.2))(typescript@6.0.2)'
+        version: '@voidzero-dev/vite-plus-test@0.1.12(@voidzero-dev/vite-plus-core@0.1.12(typescript@6.0.3))(typescript@6.0.3)'
 
 packages:
 
@@ -894,8 +894,8 @@ packages:
     resolution: {integrity: sha512-sf4i37nQ2LBx4m3wB74y+ubopq6W/dIzXg0FDGjsYnZHVa1Da8FH853wlL2gtUhg+xJXjfk3kUZS3BRoQeoQBQ==}
     engines: {node: '>=6'}
 
-  typescript@6.0.2:
-    resolution: {integrity: sha512-bGdAIrZ0wiGDo5l8c++HWtbaNCWTS4UTv7RaTH/ThVIgjkveJt83m74bBHMJkuCbslY8ixgLBVZJIOiQlQTjfQ==}
+  typescript@6.0.3:
+    resolution: {integrity: sha512-y2TvuxSZPDyQakkFRPZHKFm+KKVqIisdg9/CZwm9ftvKXLP8NRWj38/ODjNbr43SsoXqNuAisEf1GdCxqWcdBw==}
     engines: {node: '>=14.17'}
     hasBin: true
 
@@ -1108,19 +1108,19 @@ snapshots:
     dependencies:
       acorn: 8.16.0
 
-  '@sveltejs/adapter-auto@7.0.1(@sveltejs/kit@2.57.1(@sveltejs/vite-plugin-svelte@7.0.0(@voidzero-dev/vite-plus-core@0.1.12(typescript@6.0.2))(svelte@5.55.4(@typescript-eslint/types@8.58.1)))(@voidzero-dev/vite-plus-core@0.1.12(typescript@6.0.2))(svelte@5.55.4(@typescript-eslint/types@8.58.1))(typescript@6.0.2))':
+  '@sveltejs/adapter-auto@7.0.1(@sveltejs/kit@2.57.1(@sveltejs/vite-plugin-svelte@7.0.0(@voidzero-dev/vite-plus-core@0.1.12(typescript@6.0.3))(svelte@5.55.4(@typescript-eslint/types@8.58.1)))(@voidzero-dev/vite-plus-core@0.1.12(typescript@6.0.3))(svelte@5.55.4(@typescript-eslint/types@8.58.1))(typescript@6.0.3))':
     dependencies:
-      '@sveltejs/kit': 2.57.1(@sveltejs/vite-plugin-svelte@7.0.0(@voidzero-dev/vite-plus-core@0.1.12(typescript@6.0.2))(svelte@5.55.4(@typescript-eslint/types@8.58.1)))(@voidzero-dev/vite-plus-core@0.1.12(typescript@6.0.2))(svelte@5.55.4(@typescript-eslint/types@8.58.1))(typescript@6.0.2)
+      '@sveltejs/kit': 2.57.1(@sveltejs/vite-plugin-svelte@7.0.0(@voidzero-dev/vite-plus-core@0.1.12(typescript@6.0.3))(svelte@5.55.4(@typescript-eslint/types@8.58.1)))(@voidzero-dev/vite-plus-core@0.1.12(typescript@6.0.3))(svelte@5.55.4(@typescript-eslint/types@8.58.1))(typescript@6.0.3)
 
-  '@sveltejs/adapter-static@3.0.10(@sveltejs/kit@2.57.1(@sveltejs/vite-plugin-svelte@7.0.0(@voidzero-dev/vite-plus-core@0.1.12(typescript@6.0.2))(svelte@5.55.4(@typescript-eslint/types@8.58.1)))(@voidzero-dev/vite-plus-core@0.1.12(typescript@6.0.2))(svelte@5.55.4(@typescript-eslint/types@8.58.1))(typescript@6.0.2))':
+  '@sveltejs/adapter-static@3.0.10(@sveltejs/kit@2.57.1(@sveltejs/vite-plugin-svelte@7.0.0(@voidzero-dev/vite-plus-core@0.1.12(typescript@6.0.3))(svelte@5.55.4(@typescript-eslint/types@8.58.1)))(@voidzero-dev/vite-plus-core@0.1.12(typescript@6.0.3))(svelte@5.55.4(@typescript-eslint/types@8.58.1))(typescript@6.0.3))':
     dependencies:
-      '@sveltejs/kit': 2.57.1(@sveltejs/vite-plugin-svelte@7.0.0(@voidzero-dev/vite-plus-core@0.1.12(typescript@6.0.2))(svelte@5.55.4(@typescript-eslint/types@8.58.1)))(@voidzero-dev/vite-plus-core@0.1.12(typescript@6.0.2))(svelte@5.55.4(@typescript-eslint/types@8.58.1))(typescript@6.0.2)
+      '@sveltejs/kit': 2.57.1(@sveltejs/vite-plugin-svelte@7.0.0(@voidzero-dev/vite-plus-core@0.1.12(typescript@6.0.3))(svelte@5.55.4(@typescript-eslint/types@8.58.1)))(@voidzero-dev/vite-plus-core@0.1.12(typescript@6.0.3))(svelte@5.55.4(@typescript-eslint/types@8.58.1))(typescript@6.0.3)
 
-  '@sveltejs/kit@2.57.1(@sveltejs/vite-plugin-svelte@7.0.0(@voidzero-dev/vite-plus-core@0.1.12(typescript@6.0.2))(svelte@5.55.4(@typescript-eslint/types@8.58.1)))(@voidzero-dev/vite-plus-core@0.1.12(typescript@6.0.2))(svelte@5.55.4(@typescript-eslint/types@8.58.1))(typescript@6.0.2)':
+  '@sveltejs/kit@2.57.1(@sveltejs/vite-plugin-svelte@7.0.0(@voidzero-dev/vite-plus-core@0.1.12(typescript@6.0.3))(svelte@5.55.4(@typescript-eslint/types@8.58.1)))(@voidzero-dev/vite-plus-core@0.1.12(typescript@6.0.3))(svelte@5.55.4(@typescript-eslint/types@8.58.1))(typescript@6.0.3)':
     dependencies:
       '@standard-schema/spec': 1.1.0
       '@sveltejs/acorn-typescript': 1.0.9(acorn@8.16.0)
-      '@sveltejs/vite-plugin-svelte': 7.0.0(@voidzero-dev/vite-plus-core@0.1.12(typescript@6.0.2))(svelte@5.55.4(@typescript-eslint/types@8.58.1))
+      '@sveltejs/vite-plugin-svelte': 7.0.0(@voidzero-dev/vite-plus-core@0.1.12(typescript@6.0.3))(svelte@5.55.4(@typescript-eslint/types@8.58.1))
       '@types/cookie': 0.6.0
       acorn: 8.16.0
       cookie: 0.6.0
@@ -1132,18 +1132,18 @@ snapshots:
       set-cookie-parser: 3.1.0
       sirv: 3.0.2
       svelte: 5.55.4(@typescript-eslint/types@8.58.1)
-      vite: '@voidzero-dev/vite-plus-core@0.1.12(typescript@6.0.2)'
+      vite: '@voidzero-dev/vite-plus-core@0.1.12(typescript@6.0.3)'
     optionalDependencies:
-      typescript: 6.0.2
+      typescript: 6.0.3
 
-  '@sveltejs/vite-plugin-svelte@7.0.0(@voidzero-dev/vite-plus-core@0.1.12(typescript@6.0.2))(svelte@5.55.4(@typescript-eslint/types@8.58.1))':
+  '@sveltejs/vite-plugin-svelte@7.0.0(@voidzero-dev/vite-plus-core@0.1.12(typescript@6.0.3))(svelte@5.55.4(@typescript-eslint/types@8.58.1))':
     dependencies:
       deepmerge: 4.3.1
       magic-string: 0.30.21
       obug: 2.1.1
       svelte: 5.55.4(@typescript-eslint/types@8.58.1)
-      vite: '@voidzero-dev/vite-plus-core@0.1.12(typescript@6.0.2)'
-      vitefu: 1.1.2(@voidzero-dev/vite-plus-core@0.1.12(typescript@6.0.2))
+      vite: '@voidzero-dev/vite-plus-core@0.1.12(typescript@6.0.3)'
+      vitefu: 1.1.2(@voidzero-dev/vite-plus-core@0.1.12(typescript@6.0.3))
 
   '@types/chai@5.2.3':
     dependencies:
@@ -1161,7 +1161,7 @@ snapshots:
   '@typescript-eslint/types@8.58.1':
     optional: true
 
-  '@voidzero-dev/vite-plus-core@0.1.12(typescript@6.0.2)':
+  '@voidzero-dev/vite-plus-core@0.1.12(typescript@6.0.3)':
     dependencies:
       '@oxc-project/runtime': 0.115.0
       '@oxc-project/types': 0.115.0
@@ -1169,9 +1169,9 @@ snapshots:
       postcss: 8.5.8
     optionalDependencies:
       fsevents: 2.3.3
-      typescript: 6.0.2
+      typescript: 6.0.3
 
-  '@voidzero-dev/vite-plus-core@0.1.18(typescript@6.0.2)':
+  '@voidzero-dev/vite-plus-core@0.1.18(typescript@6.0.3)':
     dependencies:
       '@oxc-project/runtime': 0.124.0
       '@oxc-project/types': 0.124.0
@@ -1179,7 +1179,7 @@ snapshots:
       postcss: 8.5.9
     optionalDependencies:
       fsevents: 2.3.3
-      typescript: 6.0.2
+      typescript: 6.0.3
 
   '@voidzero-dev/vite-plus-darwin-arm64@0.1.18':
     optional: true
@@ -1199,11 +1199,11 @@ snapshots:
   '@voidzero-dev/vite-plus-linux-x64-musl@0.1.18':
     optional: true
 
-  '@voidzero-dev/vite-plus-test@0.1.12(@voidzero-dev/vite-plus-core@0.1.12(typescript@6.0.2))(typescript@6.0.2)':
+  '@voidzero-dev/vite-plus-test@0.1.12(@voidzero-dev/vite-plus-core@0.1.12(typescript@6.0.3))(typescript@6.0.3)':
     dependencies:
       '@standard-schema/spec': 1.1.0
       '@types/chai': 5.2.3
-      '@voidzero-dev/vite-plus-core': 0.1.12(typescript@6.0.2)
+      '@voidzero-dev/vite-plus-core': 0.1.12(typescript@6.0.3)
       es-module-lexer: 1.7.0
       obug: 2.1.1
       pixelmatch: 7.1.0
@@ -1213,7 +1213,7 @@ snapshots:
       tinybench: 2.9.0
       tinyexec: 1.0.4
       tinyglobby: 0.2.15
-      vite: '@voidzero-dev/vite-plus-core@0.1.12(typescript@6.0.2)'
+      vite: '@voidzero-dev/vite-plus-core@0.1.12(typescript@6.0.3)'
       ws: 8.19.0
     transitivePeerDependencies:
       - '@arethetypeswrong/core'
@@ -1236,11 +1236,11 @@ snapshots:
       - utf-8-validate
       - yaml
 
-  '@voidzero-dev/vite-plus-test@0.1.18(@voidzero-dev/vite-plus-core@0.1.12(typescript@6.0.2))(typescript@6.0.2)':
+  '@voidzero-dev/vite-plus-test@0.1.18(@voidzero-dev/vite-plus-core@0.1.12(typescript@6.0.3))(typescript@6.0.3)':
     dependencies:
       '@standard-schema/spec': 1.1.0
       '@types/chai': 5.2.3
-      '@voidzero-dev/vite-plus-core': 0.1.18(typescript@6.0.2)
+      '@voidzero-dev/vite-plus-core': 0.1.18(typescript@6.0.3)
       es-module-lexer: 1.7.0
       obug: 2.1.1
       pixelmatch: 7.1.0
@@ -1250,7 +1250,7 @@ snapshots:
       tinybench: 2.9.0
       tinyexec: 1.1.1
       tinyglobby: 0.2.16
-      vite: '@voidzero-dev/vite-plus-core@0.1.12(typescript@6.0.2)'
+      vite: '@voidzero-dev/vite-plus-core@0.1.12(typescript@6.0.3)'
       ws: 8.20.0
     transitivePeerDependencies:
       - '@arethetypeswrong/core'
@@ -1520,13 +1520,13 @@ snapshots:
 
   totalist@3.0.1: {}
 
-  typescript@6.0.2: {}
+  typescript@6.0.3: {}
 
-  vite-plus@0.1.18(@voidzero-dev/vite-plus-core@0.1.12(typescript@6.0.2))(typescript@6.0.2):
+  vite-plus@0.1.18(@voidzero-dev/vite-plus-core@0.1.12(typescript@6.0.3))(typescript@6.0.3):
     dependencies:
       '@oxc-project/types': 0.124.0
-      '@voidzero-dev/vite-plus-core': 0.1.18(typescript@6.0.2)
-      '@voidzero-dev/vite-plus-test': 0.1.18(@voidzero-dev/vite-plus-core@0.1.12(typescript@6.0.2))(typescript@6.0.2)
+      '@voidzero-dev/vite-plus-core': 0.1.18(typescript@6.0.3)
+      '@voidzero-dev/vite-plus-test': 0.1.18(@voidzero-dev/vite-plus-core@0.1.12(typescript@6.0.3))(typescript@6.0.3)
       oxfmt: 0.45.0
       oxlint: 1.60.0(oxlint-tsgolint@0.20.0)
       oxlint-tsgolint: 0.20.0
@@ -1569,9 +1569,9 @@ snapshots:
       - vite
       - yaml
 
-  vitefu@1.1.2(@voidzero-dev/vite-plus-core@0.1.12(typescript@6.0.2)):
+  vitefu@1.1.2(@voidzero-dev/vite-plus-core@0.1.12(typescript@6.0.3)):
     optionalDependencies:
-      vite: '@voidzero-dev/vite-plus-core@0.1.12(typescript@6.0.2)'
+      vite: '@voidzero-dev/vite-plus-core@0.1.12(typescript@6.0.3)'
 
   ws@8.19.0: {}
 
