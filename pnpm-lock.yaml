@@ -4,29 +4,25 @@ settings:
   autoInstallPeers: true
   excludeLinksFromLockfile: false
 
-overrides:
-  vite: npm:@voidzero-dev/vite-plus-core@^0.1.19
-  vitest: npm:@voidzero-dev/vite-plus-test@^0.1.19
-
 importers:
 
   .:
     devDependencies:
       '@sveltejs/adapter-auto':
         specifier: ^7.0.1
-        version: 7.0.1(@sveltejs/kit@2.59.1(@sveltejs/vite-plugin-svelte@7.1.2(@voidzero-dev/vite-plus-core@0.1.20(typescript@6.0.3))(svelte@5.55.5(@typescript-eslint/types@8.58.1)))(@voidzero-dev/vite-plus-core@0.1.20(typescript@6.0.3))(svelte@5.55.5(@typescript-eslint/types@8.58.1))(typescript@6.0.3))
+        version: 7.0.1(@sveltejs/kit@2.59.1(@sveltejs/vite-plugin-svelte@7.1.2(@voidzero-dev/vite-plus-core@0.1.20(typescript@6.0.3))(svelte@5.55.5))(@voidzero-dev/vite-plus-core@0.1.20(typescript@6.0.3))(svelte@5.55.5)(typescript@6.0.3))
       '@sveltejs/adapter-static':
         specifier: ^3.0.10
-        version: 3.0.10(@sveltejs/kit@2.59.1(@sveltejs/vite-plugin-svelte@7.1.2(@voidzero-dev/vite-plus-core@0.1.20(typescript@6.0.3))(svelte@5.55.5(@typescript-eslint/types@8.58.1)))(@voidzero-dev/vite-plus-core@0.1.20(typescript@6.0.3))(svelte@5.55.5(@typescript-eslint/types@8.58.1))(typescript@6.0.3))
+        version: 3.0.10(@sveltejs/kit@2.59.1(@sveltejs/vite-plugin-svelte@7.1.2(@voidzero-dev/vite-plus-core@0.1.20(typescript@6.0.3))(svelte@5.55.5))(@voidzero-dev/vite-plus-core@0.1.20(typescript@6.0.3))(svelte@5.55.5)(typescript@6.0.3))
       '@sveltejs/kit':
         specifier: ^2.59.1
-        version: 2.59.1(@sveltejs/vite-plugin-svelte@7.1.2(@voidzero-dev/vite-plus-core@0.1.20(typescript@6.0.3))(svelte@5.55.5(@typescript-eslint/types@8.58.1)))(@voidzero-dev/vite-plus-core@0.1.20(typescript@6.0.3))(svelte@5.55.5(@typescript-eslint/types@8.58.1))(typescript@6.0.3)
+        version: 2.59.1(@sveltejs/vite-plugin-svelte@7.1.2(@voidzero-dev/vite-plus-core@0.1.20(typescript@6.0.3))(svelte@5.55.5))(@voidzero-dev/vite-plus-core@0.1.20(typescript@6.0.3))(svelte@5.55.5)(typescript@6.0.3)
       '@sveltejs/vite-plugin-svelte':
         specifier: ^7.1.2
-        version: 7.1.2(@voidzero-dev/vite-plus-core@0.1.20(typescript@6.0.3))(svelte@5.55.5(@typescript-eslint/types@8.58.1))
+        version: 7.1.2(@voidzero-dev/vite-plus-core@0.1.20(typescript@6.0.3))(svelte@5.55.5)
       svelte:
         specifier: ^5.55.5
-        version: 5.55.5(@typescript-eslint/types@8.58.1)
+        version: 5.55.5
       typescript:
         specifier: ~6.0.3
         version: 6.0.3
@@ -397,10 +393,6 @@ packages:
 
   '@types/trusted-types@2.0.7':
     resolution: {integrity: sha512-ScaPdn1dQczgbl0QFTeTOmVHFULt394XJgOQNoyVhZ6r2vLnMLJfBPd53SB52T/3G36VI1/g2MZaX0cwDuXsfw==}
-
-  '@typescript-eslint/types@8.58.1':
-    resolution: {integrity: sha512-io/dV5Aw5ezwzfPBBWLoT+5QfVtP8O7q4Kftjn5azJ88bYyp/ZMCsyW1lpKK46EXJcaYMZ1JtYj+s/7TdzmQMw==}
-    engines: {node: ^18.18.0 || ^20.9.0 || >=21.1.0}
 
   '@voidzero-dev/vite-plus-core@0.1.20':
     resolution: {integrity: sha512-4KmzRfzwTeG3JuvDijrdqWusSgRvLMKDPrVsDdtbDVVjEMq0VnM8lSH+Nvepd6Pg+SuSVUP212OIfH/3Yn1bfA==}
@@ -981,19 +973,19 @@ snapshots:
     dependencies:
       acorn: 8.16.0
 
-  '@sveltejs/adapter-auto@7.0.1(@sveltejs/kit@2.59.1(@sveltejs/vite-plugin-svelte@7.1.2(@voidzero-dev/vite-plus-core@0.1.20(typescript@6.0.3))(svelte@5.55.5(@typescript-eslint/types@8.58.1)))(@voidzero-dev/vite-plus-core@0.1.20(typescript@6.0.3))(svelte@5.55.5(@typescript-eslint/types@8.58.1))(typescript@6.0.3))':
+  '@sveltejs/adapter-auto@7.0.1(@sveltejs/kit@2.59.1(@sveltejs/vite-plugin-svelte@7.1.2(@voidzero-dev/vite-plus-core@0.1.20(typescript@6.0.3))(svelte@5.55.5))(@voidzero-dev/vite-plus-core@0.1.20(typescript@6.0.3))(svelte@5.55.5)(typescript@6.0.3))':
     dependencies:
-      '@sveltejs/kit': 2.59.1(@sveltejs/vite-plugin-svelte@7.1.2(@voidzero-dev/vite-plus-core@0.1.20(typescript@6.0.3))(svelte@5.55.5(@typescript-eslint/types@8.58.1)))(@voidzero-dev/vite-plus-core@0.1.20(typescript@6.0.3))(svelte@5.55.5(@typescript-eslint/types@8.58.1))(typescript@6.0.3)
+      '@sveltejs/kit': 2.59.1(@sveltejs/vite-plugin-svelte@7.1.2(@voidzero-dev/vite-plus-core@0.1.20(typescript@6.0.3))(svelte@5.55.5))(@voidzero-dev/vite-plus-core@0.1.20(typescript@6.0.3))(svelte@5.55.5)(typescript@6.0.3)
 
-  '@sveltejs/adapter-static@3.0.10(@sveltejs/kit@2.59.1(@sveltejs/vite-plugin-svelte@7.1.2(@voidzero-dev/vite-plus-core@0.1.20(typescript@6.0.3))(svelte@5.55.5(@typescript-eslint/types@8.58.1)))(@voidzero-dev/vite-plus-core@0.1.20(typescript@6.0.3))(svelte@5.55.5(@typescript-eslint/types@8.58.1))(typescript@6.0.3))':
+  '@sveltejs/adapter-static@3.0.10(@sveltejs/kit@2.59.1(@sveltejs/vite-plugin-svelte@7.1.2(@voidzero-dev/vite-plus-core@0.1.20(typescript@6.0.3))(svelte@5.55.5))(@voidzero-dev/vite-plus-core@0.1.20(typescript@6.0.3))(svelte@5.55.5)(typescript@6.0.3))':
     dependencies:
-      '@sveltejs/kit': 2.59.1(@sveltejs/vite-plugin-svelte@7.1.2(@voidzero-dev/vite-plus-core@0.1.20(typescript@6.0.3))(svelte@5.55.5(@typescript-eslint/types@8.58.1)))(@voidzero-dev/vite-plus-core@0.1.20(typescript@6.0.3))(svelte@5.55.5(@typescript-eslint/types@8.58.1))(typescript@6.0.3)
+      '@sveltejs/kit': 2.59.1(@sveltejs/vite-plugin-svelte@7.1.2(@voidzero-dev/vite-plus-core@0.1.20(typescript@6.0.3))(svelte@5.55.5))(@voidzero-dev/vite-plus-core@0.1.20(typescript@6.0.3))(svelte@5.55.5)(typescript@6.0.3)
 
-  '@sveltejs/kit@2.59.1(@sveltejs/vite-plugin-svelte@7.1.2(@voidzero-dev/vite-plus-core@0.1.20(typescript@6.0.3))(svelte@5.55.5(@typescript-eslint/types@8.58.1)))(@voidzero-dev/vite-plus-core@0.1.20(typescript@6.0.3))(svelte@5.55.5(@typescript-eslint/types@8.58.1))(typescript@6.0.3)':
+  '@sveltejs/kit@2.59.1(@sveltejs/vite-plugin-svelte@7.1.2(@voidzero-dev/vite-plus-core@0.1.20(typescript@6.0.3))(svelte@5.55.5))(@voidzero-dev/vite-plus-core@0.1.20(typescript@6.0.3))(svelte@5.55.5)(typescript@6.0.3)':
     dependencies:
       '@standard-schema/spec': 1.1.0
       '@sveltejs/acorn-typescript': 1.0.9(acorn@8.16.0)
-      '@sveltejs/vite-plugin-svelte': 7.1.2(@voidzero-dev/vite-plus-core@0.1.20(typescript@6.0.3))(svelte@5.55.5(@typescript-eslint/types@8.58.1))
+      '@sveltejs/vite-plugin-svelte': 7.1.2(@voidzero-dev/vite-plus-core@0.1.20(typescript@6.0.3))(svelte@5.55.5)
       '@types/cookie': 0.6.0
       acorn: 8.16.0
       cookie: 0.6.0
@@ -1004,17 +996,17 @@ snapshots:
       mrmime: 2.0.1
       set-cookie-parser: 3.1.0
       sirv: 3.0.2
-      svelte: 5.55.5(@typescript-eslint/types@8.58.1)
+      svelte: 5.55.5
       vite: '@voidzero-dev/vite-plus-core@0.1.20(typescript@6.0.3)'
     optionalDependencies:
       typescript: 6.0.3
 
-  '@sveltejs/vite-plugin-svelte@7.1.2(@voidzero-dev/vite-plus-core@0.1.20(typescript@6.0.3))(svelte@5.55.5(@typescript-eslint/types@8.58.1))':
+  '@sveltejs/vite-plugin-svelte@7.1.2(@voidzero-dev/vite-plus-core@0.1.20(typescript@6.0.3))(svelte@5.55.5)':
     dependencies:
       deepmerge: 4.3.1
       magic-string: 0.30.21
       obug: 2.1.1
-      svelte: 5.55.5(@typescript-eslint/types@8.58.1)
+      svelte: 5.55.5
       vite: '@voidzero-dev/vite-plus-core@0.1.20(typescript@6.0.3)'
       vitefu: 1.1.3(@voidzero-dev/vite-plus-core@0.1.20(typescript@6.0.3))
 
@@ -1030,9 +1022,6 @@ snapshots:
   '@types/estree@1.0.9': {}
 
   '@types/trusted-types@2.0.7': {}
-
-  '@typescript-eslint/types@8.58.1':
-    optional: true
 
   '@voidzero-dev/vite-plus-core@0.1.20(typescript@6.0.3)':
     dependencies:
@@ -1127,11 +1116,9 @@ snapshots:
 
   esm-env@1.2.2: {}
 
-  esrap@2.2.6(@typescript-eslint/types@8.58.1):
+  esrap@2.2.6:
     dependencies:
       '@jridgewell/sourcemap-codec': 1.5.5
-    optionalDependencies:
-      '@typescript-eslint/types': 8.58.1
 
   fdir@6.5.0(picomatch@4.0.4):
     optionalDependencies:
@@ -1291,7 +1278,7 @@ snapshots:
 
   std-env@4.1.0: {}
 
-  svelte@5.55.5(@typescript-eslint/types@8.58.1):
+  svelte@5.55.5:
     dependencies:
       '@jridgewell/remapping': 2.3.5
       '@jridgewell/sourcemap-codec': 1.5.5
@@ -1304,7 +1291,7 @@ snapshots:
       clsx: 2.1.1
       devalue: 5.8.0
       esm-env: 1.2.2
-      esrap: 2.2.6(@typescript-eslint/types@8.58.1)
+      esrap: 2.2.6
       is-reference: 3.0.3
       locate-character: 3.0.0
       magic-string: 0.30.21
