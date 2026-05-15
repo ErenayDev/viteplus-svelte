@@ -3,13 +3,13 @@
 Modern, fast and optimized development environment with VitePlus and SvelteKit. Includes oxfmt, oxlint, vitest, and vite—an all-in-one template you'll probably need for every project.
 
 [pnpm](https://pnpm.io/) is recommended as package manager.
-Install Vite+ CLI first. See https://viteplus.dev/guide/#install-vp for more information.
+Install Vite+ CLI first. See <https://viteplus.dev/guide/#install-vp> for more information.
 
 ## Using the template
 
 ```sh
 # create a new project
-vp create https://github.com/ErenayDev/viteplus-svelte
+vp create github:ErenayDev/viteplus-svelte
 ```
 
 ## Developing
