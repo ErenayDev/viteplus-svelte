@@ -12,17 +12,17 @@
     "test": "vp test"
   },
   "devDependencies": {
-    "@sveltejs/adapter-auto": "^7.0.1",
-    "@sveltejs/adapter-static": "^3.0.10",
-    "@sveltejs/kit": "^2.60.1",
-    "@sveltejs/vite-plugin-svelte": "^7.1.2",
-    "svelte": "^5.55.8",
-    "typescript": "~6.0.3",
-    "vite": "npm:@voidzero-dev/vite-plus-core@^0.1.21",
-    "vite-plus": "^0.1.21"
+    "@sveltejs/adapter-auto": "7.0.1",
+    "@sveltejs/adapter-static": "3.0.10",
+    "@sveltejs/kit": "2.60.1",
+    "@sveltejs/vite-plugin-svelte": "7.1.2",
+    "svelte": "5.55.8",
+    "typescript": "6.0.3",
+    "vite": "npm:@voidzero-dev/vite-plus-core@0.1.22",
+    "vite-plus": "0.1.21"
   },
   "overrides": {
-    "vite": "npm:@voidzero-dev/vite-plus-core@^0.1.20"
+    "vite": "npm:@voidzero-dev/vite-plus-core@0.1.22"
   },
   "packageManager": "pnpm@11.1.3"
 }
