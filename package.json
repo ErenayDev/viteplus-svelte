@@ -19,7 +19,7 @@
     "svelte": "5.55.10",
     "typescript": "6.0.3",
     "vite": "npm:@voidzero-dev/vite-plus-core@0.1.22",
-    "vite-plus": "0.1.22"
+    "vite-plus": "0.1.23"
   },
   "overrides": {
     "vite": "npm:@voidzero-dev/vite-plus-core@0.1.22"
