@@ -27,10 +27,10 @@ importers:
         specifier: ^5.56.3
         version: 5.56.3
       typescript:
-        specifier: 6.0.3
+        specifier: ~6.0.3
         version: 6.0.3
       vite:
-        specifier: npm:@voidzero-dev/vite-plus-core@^0.1.24
+        specifier: npm:@voidzero-dev/vite-plus-core@0.1.24
         version: '@voidzero-dev/vite-plus-core@0.1.24(typescript@6.0.3)'
       vite-plus:
         specifier: ^0.1.24
