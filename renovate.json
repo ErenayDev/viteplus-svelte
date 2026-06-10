@@ -2,6 +2,7 @@
   "$schema": "https://docs.renovatebot.com/renovate-schema.json",
   "extends": ["config:recommended"],
   "minimumReleaseAge": "3 days",
-  "rangeStrategy": "pin",
-  "labels": ["dependencies"]
+  "rangeStrategy": "bump",
+  "labels": ["dependencies"],
+  "rebaseWhen": "conflicted"
 }
