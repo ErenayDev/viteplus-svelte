@@ -4,5 +4,12 @@
   "minimumReleaseAge": "3 days",
   "rangeStrategy": "bump",
   "labels": ["dependencies"],
-  "rebaseWhen": "conflicted"
+  "rebaseWhen": "conflicted",
+  "packageRules": [
+    {
+      "matchUpdateTypes": ["minor", "patch"],
+      "matchCurrentVersion": "!/^0/",
+      "automerge": true
+    }
+  ]
 }
