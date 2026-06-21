@@ -18,7 +18,7 @@ importers:
         specifier: ^3.0.10
         version: 3.0.10(@sveltejs/kit@2.66.0(@sveltejs/vite-plugin-svelte@7.1.2(@voidzero-dev/vite-plus-core@0.2.1(typescript@6.0.3))(svelte@5.56.3))(@voidzero-dev/vite-plus-core@0.2.1(typescript@6.0.3))(svelte@5.56.3)(typescript@6.0.3))
       '@sveltejs/kit':
-        specifier: ^2.65.2
+        specifier: ^2.66.0
         version: 2.66.0(@sveltejs/vite-plugin-svelte@7.1.2(@voidzero-dev/vite-plus-core@0.2.1(typescript@6.0.3))(svelte@5.56.3))(@voidzero-dev/vite-plus-core@0.2.1(typescript@6.0.3))(svelte@5.56.3)(typescript@6.0.3)
       '@sveltejs/vite-plugin-svelte':
         specifier: ^7.1.2
