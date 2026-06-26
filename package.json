@@ -16,7 +16,7 @@
     "@sveltejs/adapter-static": "^3.0.10",
     "@sveltejs/kit": "^2.67.0",
     "@sveltejs/vite-plugin-svelte": "^7.1.2",
-    "svelte": "^5.56.3",
+    "svelte": "^5.56.4",
     "typescript": "~6.0.3",
     "vite": "npm:@voidzero-dev/vite-plus-core@^0.2.1",
     "vite-plus": "^0.2.1"
