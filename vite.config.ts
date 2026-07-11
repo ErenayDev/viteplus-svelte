@@ -13,4 +13,7 @@ export default defineConfig({
   test: {
     include: ["src/**/*.test.svelte.ts"],
   },
+  fmt: {
+    svelte: true,
+  },
 });
