@@ -13,18 +13,6 @@ importers:
     devDependencies:
       '@sveltejs/adapter-auto':
         specifier: ^7.0.1
-<<<<<<< HEAD
-        version: 7.0.1(@sveltejs/kit@2.69.2(@sveltejs/vite-plugin-svelte@7.2.0(@voidzero-dev/vite-plus-core@0.2.2(typescript@6.0.3))(svelte@5.56.4))(@voidzero-dev/vite-plus-core@0.2.2(typescript@6.0.3))(svelte@5.56.4)(typescript@6.0.3))
-      '@sveltejs/adapter-static':
-        specifier: ^3.0.10
-        version: 3.0.10(@sveltejs/kit@2.69.2(@sveltejs/vite-plugin-svelte@7.2.0(@voidzero-dev/vite-plus-core@0.2.2(typescript@6.0.3))(svelte@5.56.4))(@voidzero-dev/vite-plus-core@0.2.2(typescript@6.0.3))(svelte@5.56.4)(typescript@6.0.3))
-      '@sveltejs/kit':
-        specifier: ^2.69.2
-        version: 2.69.2(@sveltejs/vite-plugin-svelte@7.2.0(@voidzero-dev/vite-plus-core@0.2.2(typescript@6.0.3))(svelte@5.56.4))(@voidzero-dev/vite-plus-core@0.2.2(typescript@6.0.3))(svelte@5.56.4)(typescript@6.0.3)
-      '@sveltejs/vite-plugin-svelte':
-        specifier: ^7.2.0
-        version: 7.2.0(@voidzero-dev/vite-plus-core@0.2.2(typescript@6.0.3))(svelte@5.56.4)
-=======
         version: 7.0.1(@sveltejs/kit@2.69.1(@sveltejs/vite-plugin-svelte@7.1.2(@voidzero-dev/vite-plus-core@0.2.2(typescript@6.0.3))(svelte@5.56.4))(@voidzero-dev/vite-plus-core@0.2.2(typescript@6.0.3))(svelte@5.56.4)(typescript@6.0.3))
       '@sveltejs/adapter-static':
         specifier: ^3.0.10
@@ -35,7 +23,6 @@ importers:
       '@sveltejs/vite-plugin-svelte':
         specifier: ^7.1.2
         version: 7.1.2(@voidzero-dev/vite-plus-core@0.2.2(typescript@6.0.3))(svelte@5.56.4)
->>>>>>> 5ddf79e (add svelte support for oxfmt)
       svelte:
         specifier: ^5.56.4
         version: 5.56.4
@@ -1158,21 +1145,6 @@ snapshots:
     dependencies:
       acorn: 8.17.0
 
-<<<<<<< HEAD
-  '@sveltejs/adapter-auto@7.0.1(@sveltejs/kit@2.69.2(@sveltejs/vite-plugin-svelte@7.2.0(@voidzero-dev/vite-plus-core@0.2.2(typescript@6.0.3))(svelte@5.56.4))(@voidzero-dev/vite-plus-core@0.2.2(typescript@6.0.3))(svelte@5.56.4)(typescript@6.0.3))':
-    dependencies:
-      '@sveltejs/kit': 2.69.2(@sveltejs/vite-plugin-svelte@7.2.0(@voidzero-dev/vite-plus-core@0.2.2(typescript@6.0.3))(svelte@5.56.4))(@voidzero-dev/vite-plus-core@0.2.2(typescript@6.0.3))(svelte@5.56.4)(typescript@6.0.3)
-
-  '@sveltejs/adapter-static@3.0.10(@sveltejs/kit@2.69.2(@sveltejs/vite-plugin-svelte@7.2.0(@voidzero-dev/vite-plus-core@0.2.2(typescript@6.0.3))(svelte@5.56.4))(@voidzero-dev/vite-plus-core@0.2.2(typescript@6.0.3))(svelte@5.56.4)(typescript@6.0.3))':
-    dependencies:
-      '@sveltejs/kit': 2.69.2(@sveltejs/vite-plugin-svelte@7.2.0(@voidzero-dev/vite-plus-core@0.2.2(typescript@6.0.3))(svelte@5.56.4))(@voidzero-dev/vite-plus-core@0.2.2(typescript@6.0.3))(svelte@5.56.4)(typescript@6.0.3)
-
-  '@sveltejs/kit@2.69.2(@sveltejs/vite-plugin-svelte@7.2.0(@voidzero-dev/vite-plus-core@0.2.2(typescript@6.0.3))(svelte@5.56.4))(@voidzero-dev/vite-plus-core@0.2.2(typescript@6.0.3))(svelte@5.56.4)(typescript@6.0.3)':
-    dependencies:
-      '@standard-schema/spec': 1.1.0
-      '@sveltejs/acorn-typescript': 1.0.10(acorn@8.16.0)
-      '@sveltejs/vite-plugin-svelte': 7.2.0(@voidzero-dev/vite-plus-core@0.2.2(typescript@6.0.3))(svelte@5.56.4)
-=======
   '@sveltejs/adapter-auto@7.0.1(@sveltejs/kit@2.69.1(@sveltejs/vite-plugin-svelte@7.1.2(@voidzero-dev/vite-plus-core@0.2.2(typescript@6.0.3))(svelte@5.56.4))(@voidzero-dev/vite-plus-core@0.2.2(typescript@6.0.3))(svelte@5.56.4)(typescript@6.0.3))':
     dependencies:
       '@sveltejs/kit': 2.69.1(@sveltejs/vite-plugin-svelte@7.1.2(@voidzero-dev/vite-plus-core@0.2.2(typescript@6.0.3))(svelte@5.56.4))(@voidzero-dev/vite-plus-core@0.2.2(typescript@6.0.3))(svelte@5.56.4)(typescript@6.0.3)
@@ -1186,7 +1158,6 @@ snapshots:
       '@standard-schema/spec': 1.1.0
       '@sveltejs/acorn-typescript': 1.0.10(acorn@8.17.0)
       '@sveltejs/vite-plugin-svelte': 7.1.2(@voidzero-dev/vite-plus-core@0.2.2(typescript@6.0.3))(svelte@5.56.4)
->>>>>>> 5ddf79e (add svelte support for oxfmt)
       '@types/cookie': 0.6.0
       acorn: 8.17.0
       cookie: 0.6.0
@@ -1202,11 +1173,7 @@ snapshots:
     optionalDependencies:
       typescript: 6.0.3
 
-<<<<<<< HEAD
-  '@sveltejs/vite-plugin-svelte@7.2.0(@voidzero-dev/vite-plus-core@0.2.2(typescript@6.0.3))(svelte@5.56.4)':
-=======
   '@sveltejs/vite-plugin-svelte@7.1.2(@voidzero-dev/vite-plus-core@0.2.2(typescript@6.0.3))(svelte@5.56.4)':
->>>>>>> 5ddf79e (add svelte support for oxfmt)
     dependencies:
       deepmerge: 4.3.1
       magic-string: 0.30.21
