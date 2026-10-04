@@ -17,6 +17,7 @@ export default defineConfig({
         pages: "build",
         assets: "build",
         precompress: true,
+        fallback: null,
         strict: false,
       }),
       // required for hosting on Github Pages. If this is not in your case, just delete below 3 lines.
