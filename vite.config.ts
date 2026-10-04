@@ -10,20 +10,18 @@ const dev = process.env.NODE_ENV === "development";
 
 export default defineConfig({
   plugins: [sveltekit({
-    kit: {
-      // If your environment is not supported, or you settled on a specific environment, switch out the adapter.
-      // See https://svelte.dev/docs/kit/adapters for more information about adapters.
-      adapter: adapter({
-        pages: "build",
-        assets: "build",
-        precompress: true,
-        fallback: null,
-        strict: false,
-      }),
-      // required for hosting on Github Pages. If this is not in your case, just delete below 3 lines.
-      paths: {
-        base: dev ? "" : `/${pkg.name}`,
-      },
+    // If your environment is not supported, or you settled on a specific environment, switch out the adapter.
+    // See https://svelte.dev/docs/kit/adapters for more information about adapters.
+    adapter: adapter({
+      pages: "build",
+      assets: "build",
+      precompress: true,
+      fallback: null,
+      strict: false,
+    }),
+    // required for hosting on Github Pages. If this is not in your case, just delete below 3 lines.
+    paths: {
+      base: dev ? "" : `/${pkg.name}`,
     },
     vitePlugin: {
       dynamicCompileOptions: ({ filename }) =>
