@@ -23,10 +23,8 @@ export default defineConfig({
     paths: {
       base: dev ? "" : `/${pkg.name}`,
     },
-    vitePlugin: {
-      dynamicCompileOptions: ({ filename }) =>
-        filename.includes("node_modules") ? undefined : { runes: true },
-    },
+    dynamicCompileOptions: ({ filename }) =>
+        filename.includes("node_modules") ? undefined : { runes: true }
   })],
   staged: {
     "*": "vp check --fix",
