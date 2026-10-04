@@ -16,8 +16,7 @@ export default defineConfig({
       adapter: adapter({
         pages: "build",
         assets: "build",
-        fallback: null,
-        precompress: false,
+        precompress: true,
         strict: false,
       }),
       // required for hosting on Github Pages. If this is not in your case, just delete below 3 lines.
