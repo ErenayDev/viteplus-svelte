@@ -20,6 +20,14 @@ Once you've created a project and installed dependencies with `vp install`, star
 vp dev
 ```
 
+## Testing
+
+When you want to test your project and added your [Vitest](https://vitest.dev/) tests, run this command:
+
+```sh
+vp test
+```
+
 ## Building
 
 To create a production version of your app:
