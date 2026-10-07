@@ -9,23 +9,25 @@ import pkg from "./package.json" with { type: "json" };
 const dev = process.env.NODE_ENV === "development";
 
 export default defineConfig({
-  plugins: [sveltekit({
-    // If your environment is not supported, or you settled on a specific environment, switch out the adapter.
-    // See https://svelte.dev/docs/kit/adapters for more information about adapters.
-    adapter: adapter({
-      pages: "build",
-      assets: "build",
-      precompress: true,
-      fallback: null,
-      strict: false,
+  plugins: [
+    sveltekit({
+      // If your environment is not supported, or you settled on a specific environment, switch out the adapter.
+      // See https://svelte.dev/docs/kit/adapters for more information about adapters.
+      adapter: adapter({
+        pages: "build",
+        assets: "build",
+        precompress: true,
+        fallback: undefined,
+        strict: false,
+      }),
+      // required for hosting on Github Pages. If this is not in your case, just delete below 3 lines.
+      paths: {
+        base: dev ? "" : `/${pkg.name}`,
+      },
+      dynamicCompileOptions: ({ filename }) =>
+        filename.includes("node_modules") ? undefined : { runes: true },
     }),
-    // required for hosting on Github Pages. If this is not in your case, just delete below 3 lines.
-    paths: {
-      base: dev ? "" : `/${pkg.name}`,
-    },
-    dynamicCompileOptions: ({ filename }) =>
-        filename.includes("node_modules") ? undefined : { runes: true }
-  })],
+  ],
   staged: {
     "*": "vp check --fix",
   },

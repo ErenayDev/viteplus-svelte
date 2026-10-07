@@ -10,8 +10,8 @@
 
 <script lang="ts">
   let count = $state(0);
-  import svelte from "$lib/assets/svelte.svg";
-  import viteplus from "$lib/assets/viteplus.svg";
+  import svelte from "#lib/assets/svelte.svg";
+  import viteplus from "#lib/assets/viteplus.svg";
 </script>
 
 <div class="container">
@@ -26,11 +26,7 @@
     <a href="https://viteplus.dev" target="_blank" rel="noopener noreferrer">
       VitePlus Documentation
     </a>
-    <a
-      href="https://svelte.dev/docs/kit"
-      target="_blank"
-      rel="noopener noreferrer"
-    >
+    <a href="https://svelte.dev/docs/kit" target="_blank" rel="noopener noreferrer">
       SvelteKit Documentation
     </a>
   </div>
@@ -38,8 +34,5 @@
     Clicks: {count}
   </button>
 
-  <center
-    >Made by <a href="https://erenaydev.com.tr" target="_blank">Erenay</a
-    ></center
-  >
+  <center>Made by <a href="https://erenaydev.com.tr" target="_blank">Erenay</a></center>
 </div>
