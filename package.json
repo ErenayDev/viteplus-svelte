@@ -20,7 +20,7 @@
     "@sveltejs/adapter-static": "^4.0.0",
     "@sveltejs/kit": "^3.0.1",
     "@sveltejs/vite-plugin-svelte": "^7.3.1",
-    "@types/node": "^26.6.4",
+    "@types/node": "^26.6.5",
     "svelte": "^5.57.2",
     "typescript": "~6.0.3",
     "vite": "catalog:",
