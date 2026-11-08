@@ -29,5 +29,5 @@
   "overrides": {
     "vite": "npm:@voidzero-dev/vite-plus-core@1.5.0"
   },
-  "packageManager": "pnpm@12.17.0"
+  "packageManager": "pnpm@12.18.0"
 }
