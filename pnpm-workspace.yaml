@@ -1,6 +1,7 @@
 overrides:
   vite@*: "catalog:"
 catalog:
+  '@typescript/native': npm:typescript@^7.0.2
   vite: npm:@voidzero-dev/vite-plus-core@8.3.8000
   vite-plus: 1.7.0
 peerDependencyRules:
