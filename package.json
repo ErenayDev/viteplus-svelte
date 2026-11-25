@@ -21,6 +21,7 @@
     "@sveltejs/kit": "^3.4.0",
     "@sveltejs/vite-plugin-svelte": "^7.3.1",
     "@types/node": "^26.6.6",
+    "@typescript/native": "catalog:",
     "svelte": "^5.59.1",
     "typescript": "~6.0.3",
     "vite": "catalog:",
