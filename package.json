@@ -28,7 +28,7 @@
     "vite-plus": "catalog:"
   },
   "overrides": {
-    "vite": "npm:@voidzero-dev/vite-plus-core@8.3.8000"
+    "vite": "npm:@voidzero-dev/vite-plus-core@8.3.8001"
   },
   "packageManager": "pnpm@12.23.0"
 }
