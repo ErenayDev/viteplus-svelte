@@ -23,7 +23,7 @@
     "@types/node": "^26.6.10",
     "@typescript/native": "catalog:",
     "svelte": "^5.59.2",
-    "typescript": "~6.0.3",
+    "typescript": "~7.0.2",
     "vite": "catalog:",
     "vite-plus": "catalog:"
   },
